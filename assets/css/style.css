@@ -1,0 +1,41 @@
+html,
+a {
+  font-family: 'Overpass', sans-serif;
+  color: #3f3f40;
+}
+
+a { text-decoration: none; }
+
+h1 { font-family: 'Permanent Marker', cursive; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-headline { flex-grow: 3; }
+
+.nav-headline-h1 { margin-left: .5rem; }
+
+.nav-list {
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #3f3f40;
+}
