@@ -1,25 +1,54 @@
 html,
 a {
+  --dark-green: #223022;
   font-family: 'Overpass', sans-serif;
-  color: #3f3f40;
+  color: var(--dark-green);
+}
+
+body {
+  margin: 0 auto;
+  font-size: 1.25rem;
 }
 
 a { text-decoration: none; }
 
-h1 { font-family: 'Permanent Marker', cursive; }
+figure { margin: 0; }
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+a:hover {
+  color: #f6ae2d;
+}
+
 
 nav {
   display: flex;
   justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
 }
 
+main {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
 .nav-headline { flex-grow: 3; }
 
 .nav-headline-h1 { margin-left: .5rem; }
 
 .nav-list {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   flex-grow: 1;
   justify-content: space-around;
 }
@@ -32,10 +61,97 @@ nav {
   font-size: 1.2rem;
   font-weight: 700;
   padding: .5rem 1rem;
-  border-radius: 2rem;
 }
 
-.nav-link:hover {
+.banner-container {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.banner-inner-container {
+  width: 29%;
+  max-height: 100%;
+  flex-grow: 2;
+  padding: 1rem 3rem;
   color: #fff;
-  background-color: #3f3f40;
+  background-color: var(--dark-green);
+}
+
+.banner-image {
+  flex-grow: 1;
+  width: 50%;
+  height: 100%;
+}
+
+.projects-container {
+  display: flex;
+  width: 80%;
+  margin: 5rem auto 0 auto;
+}
+
+.projects-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.projects-headline {
+  margin-top: 0;
+  margin-bottom: 7rem;
+}
+
+.projects-list {
+  list-style-type: circle;
+}
+
+.projects-list-item {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.projects-figure {
+  max-width: 600px;
+  overflow-x: hidden;
+}
+
+.projects-image {
+  max-width: 1000px;
+  overflow-x: hidden;
+  margin: 0 -35%;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 5rem auto 0 auto;
+}
+
+.fa-brands, 
+.fa-solid {
+  font-size: 3.5rem;
+  margin-left: 1rem;
+}
+
+.fa-heart {
+  margin-left: 0;
+  font-size: 1.25rem;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
