@@ -58,14 +58,11 @@ nav {
   margin: 0 auto;
 }
 
-.nav-headline { flex-grow: 3; }
-
 .nav-headline-h1 { margin-left: .5rem; }
 
 .nav-list {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   justify-content: space-around;
 }
 
@@ -163,8 +160,10 @@ footer {
 
 /* Contacts page */
 
-.contact-container {
+.contacts-container {
   width: 80%;
   margin: 0 auto;
   text-align: center;
 }
+
+.contacts-headline { margin-bottom: 5rem; }
