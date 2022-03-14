@@ -16,23 +16,59 @@
   <link href="./assets/css/normalize.css" rel="stylesheet" >
   <!-- Custom Styles -->
   <link href="./assets/css/style.css" rel="stylesheet" >
+  <script type="text/javascript" src="./assets/js/script.js" defer></script>
 </head>
 <body>
   <header class="header">
     <nav class="nav">
       <a class="nav-headline" href="/index.html"><h1 class="nav-headline-h1">Krista J.</h1></a>
       <ul class="nav-list">
-        <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="./contacts.html">Contacts</a></li>
       </ul>
     </nav>
   </header>
   <main>
+    <!-- Banner -->
+  <section class="banner-container">
+    <div class="banner-inner-container">
+      <h2 id="about-me"class="banner-headline">About me</h2>
+      <p class="banner-text">Welcome to my portfolio website!</p>
+      <p class="banner-text">Hi! I have a MSc in Chemistry but I recently started my journey in IT world.</p>
+      <p class="banner-text">I have knowledge about front-end programming languages - HTML, CSS and JavaScript and I crave to deepen my knowledge.</p>
+      <p class="banner-text">In my free time I engage in small arts and crafts projects and like to recharge by embracing walks in nature.</p>
+    </div>
+    <img class="banner-image" src="./assets/img/banner-photo.jpg">
+  </section>
+  <!-- Project section -->
+  <section class="projects-container">
+      <figure class="projects-figure">
+        <img class="projects-image" src="./assets/img/sparkle-heart-website.PNG">
+      </figure>
+      <div id="projects" class="projects-inner-container">
+        <h2 class="projects-headline">Projects</h2>
+        <ul class="projects-list">
+          <li class="projects-list-item"><a class="projects-list-link" href="https://kristaj.infinityfreeapp.com/" target="_blank" rel="noopener nofollow">SparkleHeart</a></li>
+          <li class="projects-list-item"><a class="projects-list-link" href="./assets/vinylOwl/index.html" target="_blank" rel="noopener nofollow">Vinyl Owl</a></li>
+        </ul>
+      </div>
+  </section>
+  <section class="skills-container">
+    <h2 class="skills-headline">Skills</h2>
+    <div class="skills-icons">
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css3-alt"></i>
+      <i class="fa-brands fa-js-square"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-wordpress"></i>
 
+    </div>
+  </section>
   </main>
+  
   <footer>
-
+    <p class="footer-text" class="footer-text">This is a footer. <br> With <i class="fa-solid fa-heart"></i> from Latvia</p>
   </footer>
   
 </body>
