@@ -1,3 +1,4 @@
+/* Generic styles */
 html,
 a {
   --dark-green: #223022;
@@ -29,6 +30,26 @@ a:hover {
   color: #f6ae2d;
 }
 
+main {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* Font Awesome styles */
+
+.fa-brands, 
+.fa-solid {
+  font-size: 3.5rem;
+  margin-left: 1rem;
+}
+
+.fa-heart {
+  margin-left: 0;
+  font-size: 1.25rem;
+}
+
+/* Navigation */
 
 nav {
   display: flex;
@@ -37,11 +58,6 @@ nav {
   margin: 0 auto;
 }
 
-main {
-  max-width: 1280px;
-  height: 100%;
-  margin: 0 auto;
-}
 .nav-headline { flex-grow: 3; }
 
 .nav-headline-h1 { margin-left: .5rem; }
@@ -53,15 +69,15 @@ main {
   justify-content: space-around;
 }
 
-.nav-item {
-  list-style: none;
-}
+.nav-item { list-style: none; }
 
 .nav-link {
   font-size: 1.2rem;
   font-weight: 700;
   padding: .5rem 1rem;
 }
+
+/* Banner */
 
 .banner-container {
   display: flex;
@@ -84,6 +100,8 @@ main {
   width: 50%;
   height: 100%;
 }
+
+/* Prpjects */
 
 .projects-container {
   display: flex;
@@ -123,6 +141,8 @@ main {
   margin: 0 -35%;
 }
 
+/* Skills */
+
 .skills-container {
   display: flex;
   justify-content: space-around;
@@ -131,16 +151,7 @@ main {
   margin: 5rem auto 0 auto;
 }
 
-.fa-brands, 
-.fa-solid {
-  font-size: 3.5rem;
-  margin-left: 1rem;
-}
-
-.fa-heart {
-  margin-left: 0;
-  font-size: 1.25rem;
-}
+/* Footer */
 
 .footer-text {
   text-align: center;
@@ -149,6 +160,8 @@ main {
 footer {
   margin-top: 5rem;
 }
+
+/* Contacts page */
 
 .contact-container {
   width: 80%;
